@@ -11,7 +11,7 @@ s.source_files = 'LNPopupController/**/*.{pch,h,m}'
 s.public_header_files = 'LNPopupController/LNPopupController.h'
 s.private_header_files = 'LNPopupController/LNPopupController/Private/*.{h}'
 s.resources = 'LNPopupController/*.xcassets'
-s.prefix_header_file = 'LNPopupController/*.pch'
+s.prefix_header_file = 'LNPopupController/LNPopupController.pch'
 s.requires_arc = true
 s.ios.deployment_target = '9.0'
 end
