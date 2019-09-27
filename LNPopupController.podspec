@@ -8,7 +8,7 @@ s.homepage = 'https://github.com/LeoNatan/LNPopupController'
 s.authors = 'Leo Natan'
 s.source = { :git => 'https://github.com/LeoNatan/LNPopupController.git', :tag => 'v' << s.version.to_s }
 s.source_files = 'LNPopupController/**/*.{pch,h,m}'
-s.public_header_files = 'LNPopupController/LNPopupController.h'
+s.public_header_files = 'LNPopupController/LNPopupController.h', 'LNPopupController/LNPopupController/*.h'
 s.private_header_files = 'LNPopupController/LNPopupController/Private/*.{h}'
 s.resources = 'LNPopupController/*.xcassets'
 s.prefix_header_file = 'LNPopupController/LNPopupController.pch'
