@@ -7,10 +7,10 @@ s.description = 'LNPopupController is a framework for presenting view controller
 s.homepage = 'https://github.com/LeoNatan/LNPopupController'
 s.authors = 'Leo Natan'
 s.source = { :git => 'https://github.com/LeoNatan/LNPopupController.git', :tag => 'v' << s.version.to_s }
-s.source_files = 'LNPopupController/**/*.{h,m}', 'LNPopupController/**/*.{h,m}'
+s.source_files = 'LNPopupController/**/*.{h,m}'
 s.public_header_files = 'LNPopupController/LNPopupController.h'
 s.private_header_files = 'LNPopupController/LNPopupController/Private/*.{h}'
 s.resources = 'LNPopupController/*.xcassets'
 s.requires_arc = true
-s.ios.deployment_target = '10.0'
+s.ios.deployment_target = '9.0'
 end
